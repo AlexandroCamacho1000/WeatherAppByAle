@@ -1,16 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 **Weather App**  
+**1. Overview**  
+The **Weather App** is a web application built with **React** and **Vite** that allows users to check the current weather and forecast for any city worldwide. Users can **search for a city**, view **temperature**, **humidity**, **wind speed**, and other weather details. The app uses an **external weather API** (OpenWeatherMap) to fetch real-time data. It features a **modern tech-blue theme** styled with **Tailwind CSS**, **smooth animations**, and an **intuitive, user-friendly interface**.  
 
-Currently, two official plugins are available:
+**2. Technologies Used**  
+- **Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 Tailwind CSS  
+- **Tools:** 🗂 Git & GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm, ⚡ Vite  
+- **API:** 🌦 OpenWeatherMap (external weather API)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**3. Installation Guide (Run Locally)**  
+Follow these steps to run the project on your local machine:  
+1. **Clone the repository:** `git clone <your-repo-url>`  
+2. **Navigate to the project folder:** `cd weather-app`  
+3. **Install dependencies:** `npm install`  
+4. **Start the development server:** `npm run dev`  
+5. **Open the project in your browser:** [http://localhost:5173](http://localhost:5173)  
+The app should now be running locally. 🚀  
 
-## React Compiler
+**4. Author**  
+- **Developed by:** Alejandro Camacho  
+- **GitHub:** [AlexandroCamacho1000](https://github.com/AlexandroCamacho1000) 👨‍💻  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+🌟 **Aplicación del Clima**  
+**1. Descripción General**  
+La **Aplicación del Clima** es una aplicación web desarrollada con **React** y **Vite** que permite a los usuarios consultar el **clima actual** y el **pronóstico** de cualquier ciudad del mundo. Los usuarios pueden **buscar una ciudad** y ver **temperatura**, **humedad**, **velocidad del viento** y otros detalles meteorológicos. La aplicación utiliza una **API externa de clima** (OpenWeatherMap) para obtener datos en tiempo real. Cuenta con un **tema moderno azul-tech**, **estilos con Tailwind CSS**, **animaciones suaves** y una **interfaz intuitiva y fácil de usar**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**2. Tecnologías Utilizadas**  
+- **Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 Tailwind CSS  
+- **Herramientas:** 🗂 Git y GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm, ⚡ Vite  
+- **API:** 🌦 OpenWeatherMap (API externa de clima)  
+
+**3. Guía de Instalación (Ejecutar Localmente)**  
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:  
+1. **Clona el repositorio:** `git clone <your-repo-url>`  
+2. **Entra a la carpeta del proyecto:** `cd weather-app`  
+3. **Instala las dependencias:** `npm install`  
+4. **Inicia el servidor de desarrollo:** `npm run dev`  
+5. **Abre el proyecto en tu navegador:** [http://localhost:5173](http://localhost:5173)  
+La aplicación quedará ejecutándose localmente. 🚀  
+
+**4. Autor**  
+- **Desarrollado por:** Alejandro Camacho  
+- **GitHub:** [AlexandroCamacho1000](https://github.com/AlexandroCamacho1000) 👨‍💻
