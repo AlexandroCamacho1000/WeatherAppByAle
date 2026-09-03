@@ -1,11 +1,8 @@
 import React from 'react'
 
-// TemperatureToggle: switches between °C and °F
 function TemperatureToggle({ unit, setUnit }) {
   return (
     <div className="flex items-center gap-2">
-      
-      {/* Celsius button */}
       <button
         onClick={() => setUnit('C')}
         className={`px-4 py-2 rounded-xl font-semibold transition-colors ${
@@ -16,8 +13,6 @@ function TemperatureToggle({ unit, setUnit }) {
       >
         °C
       </button>
-
-      {/* Fahrenheit button */}
       <button
         onClick={() => setUnit('F')}
         className={`px-4 py-2 rounded-xl font-semibold transition-colors ${
@@ -28,7 +23,6 @@ function TemperatureToggle({ unit, setUnit }) {
       >
         °F
       </button>
-
     </div>
   )
 }

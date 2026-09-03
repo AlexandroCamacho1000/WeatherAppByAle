@@ -1,52 +1,117 @@
-<img width="101" height="101" alt="logoaledev" src="https://github.com/user-attachments/assets/ac6b570b-4799-4503-82f8-4f11c87c853d" />
+# Weather App by AleDev
 
-# 🌟 Weather App
+Real-time weather for any city worldwide with a modern glassmorphism UI.
 
-## 1. Overview  
-The **Weather App** is a web application built with **React** and **Vite** that allows users to check the **current weather** and **forecast** for any city worldwide. Users can **search for a city**, view **temperature**, **humidity**, **wind speed**, and other weather details. The app uses an **external weather API** (**OpenWeatherMap**) to fetch real-time data. It features a modern **tech-blue theme** styled with **Tailwind CSS**, **smooth animations**, and an **intuitive, user-friendly interface**.
+**Live demo:** _(add your Vercel URL here after deploy)_
+**Portfolio:** https://alejandrocamachodev.vercel.app/
 
-## 2. Technologies Used  
-**Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 Tailwind CSS  
-**Tools:** 🗂 Git & GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm, ⚡ Vite  
-**API:** 🌦 OpenWeatherMap (external weather API)  
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-4-38BDF8?logo=tailwindcss&logoColor=white) ![OpenWeatherMap](https://img.shields.io/badge/API-OpenWeatherMap-orange)
 
-## 3. Installation Guide (Run Locally)  
-Follow these steps to run the project on your local machine:  
-1. **Clone the repository:** `git clone <your-repo-url>`  
-2. **Navigate to the project folder:** `cd weather-app`  
-3. **Install dependencies:** `npm install`  
-4. **Start the development server:** `npm run dev`  
-5. **Open the project in your browser:** `http://localhost:5173`  
+![App screenshot](./screenshot.png)
 
-The app should now be running locally. 🚀
+## Features
+- Search any city worldwide with instant feedback
+- Current temperature with °C / °F toggle
+- Min / max, humidity and wind speed
+- Dynamic weather icons with day / night support
+- Friendly error states for unknown cities and network issues
+- Responsive layout for mobile and desktop
 
-## 4. Author  
-**Developed by:** Alejandro Camacho  
-**GitHub:** AlexandroCamacho1000 👨‍💻
+## Tech stack
+- React 19, Vite 7, JavaScript ES6+, Tailwind CSS 4, Lucide React
+- OpenWeatherMap Current Weather API
+- ESLint, npm
 
-# 🌟 Aplicación del Clima
+## Run locally
 
-## 1. Descripción General  
-La **Aplicación del Clima** es una aplicación web desarrollada con **React** y **Vite** que permite a los usuarios consultar el **clima actual** y el **pronóstico** de cualquier ciudad del mundo. Los usuarios pueden **buscar una ciudad** y ver **temperatura**, **humedad**, **velocidad del viento** y otros detalles meteorológicos. La aplicación utiliza una **API externa de clima** (**OpenWeatherMap**) para obtener datos en tiempo real. Cuenta con un tema moderno **azul-tech**, **estilos con Tailwind CSS**, **animaciones suaves** y una **interfaz intuitiva y fácil de usar**.
+```bash
+git clone https://github.com/AlexandroCamacho1000/WeatherAppByAle.git
+cd weather-app
+npm install
+```
 
-## 2. Tecnologías Utilizadas  
-**Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 Tailwind CSS  
-**Herramientas:** 🗂 Git y GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm, ⚡ Vite  
-**API:** 🌦 OpenWeatherMap (API externa de clima)  
+Create your env file from the example and add your free API key from https://openweathermap.org/api:
 
-## 3. Guía de Instalación (Ejecutar Localmente)  
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:  
-1. **Clona el repositorio:** `git clone <your-repo-url>`  
-2. **Entra a la carpeta del proyecto:** `cd weather-app`  
-3. **Instala las dependencias:** `npm install`  
-4. **Inicia el servidor de desarrollo:** `npm run dev`  
-5. **Abre el proyecto en tu navegador:** `http://localhost:5173`  
+```bash
+# Windows
+copy .env.example .env
+# Mac / Linux
+cp .env.example .env
+```
+```
+VITE_WEATHER_API_KEY=your_key_here
+```
 
-La aplicación quedará ejecutándose localmente. 🚀
+```bash
+npm run dev
+# http://localhost:5173
+```
 
-## 4. Autor  
-**Desarrollado por:** Alejandro Camacho  
-**GitHub:** AlexandroCamacho1000 👨‍💻
+```bash
+npm run lint
+npm run build
+npm run preview
+```
 
-<img width="594" height="787" alt="image" src="https://github.com/user-attachments/assets/bb9a6a57-4dc5-4a7f-b7e7-7a2caa9a3877" />
+## Author
+Alejandro Camacho — Electronic Engineer & Full Stack Developer
+- Portfolio: https://alejandrocamachodev.vercel.app/
+- GitHub: https://github.com/AlexandroCamacho1000
 
+---
+
+# Aplicación del Clima por AleDev
+
+Clima en tiempo real para cualquier ciudad del mundo con una interfaz moderna glassmorphism.
+
+**Demo en vivo:** _(agrega tu URL de Vercel aquí después del deploy)_
+**Portafolio:** https://alejandrocamachodev.vercel.app/
+
+## Características
+- Busca cualquier ciudad del mundo con respuesta inmediata
+- Temperatura actual con interruptor °C / °F
+- Mínima / máxima, humedad y velocidad del viento
+- Iconos dinámicos con soporte día / noche
+- Errores amigables para ciudades no encontradas y fallas de red
+- Diseño responsive para móvil y escritorio
+
+## Stack tecnológico
+- React 19, Vite 7, JavaScript ES6+, Tailwind CSS 4, Lucide React
+- API Current Weather de OpenWeatherMap
+- ESLint, npm
+
+## Ejecutar localmente
+
+```bash
+git clone https://github.com/AlexandroCamacho1000/WeatherAppByAle.git
+cd weather-app
+npm install
+```
+
+Crea tu archivo env desde el ejemplo y agrega tu API key gratuita de https://openweathermap.org/api:
+
+```bash
+# Windows
+copy .env.example .env
+# Mac / Linux
+cp .env.example .env
+```
+```
+VITE_WEATHER_API_KEY=tu_key_aqui
+```
+
+```bash
+npm run dev
+# http://localhost:5173
+```
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+## Autor
+Alejandro Camacho — Ingeniero Electrónico & Full Stack Developer
+- Portafolio: https://alejandrocamachodev.vercel.app/
+- GitHub: https://github.com/AlexandroCamacho1000
