@@ -40,7 +40,7 @@ function SearchBar({ fetchWeather, loading }) {
         </div>
         <button
           type="submit"
-          disabled={loading || !city.trim()}
+          disabled={loading}
           className="
             bg-gradient-to-r from-blue-500 to-pink-400
             hover:from-blue-600 hover:to-pink-500
