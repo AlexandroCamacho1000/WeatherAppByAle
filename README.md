@@ -2,7 +2,7 @@
 
 Real-time weather for any city worldwide with a modern glassmorphism UI.
 
-**Live demo:** _(add your Vercel URL here after deploy)_
+**Live demo:** https://weather-app-by-ale-seven.vercel.app/
 **Portfolio:** https://alejandrocamachodev.vercel.app/
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-4-38BDF8?logo=tailwindcss&logoColor=white) ![OpenWeatherMap](https://img.shields.io/badge/API-OpenWeatherMap-orange)
@@ -64,7 +64,7 @@ Alejandro Camacho — Electronic Engineer & Full Stack Developer
 
 Clima en tiempo real para cualquier ciudad del mundo con una interfaz moderna glassmorphism.
 
-**Demo en vivo:** _(agrega tu URL de Vercel aquí después del deploy)_
+**Demo en vivo:** https://weather-app-by-ale-seven.vercel.app/
 **Portafolio:** https://alejandrocamachodev.vercel.app/
 
 ## Características

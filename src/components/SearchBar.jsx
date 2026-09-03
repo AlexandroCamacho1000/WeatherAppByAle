@@ -15,27 +15,29 @@ function SearchBar({ fetchWeather, loading }) {
   return (
     <form onSubmit={handleSubmit}>
       <div className="
-        flex items-center gap-3
+        flex flex-col min-[420px]:flex-row min-[420px]:items-center gap-2 min-[420px]:gap-3
         bg-blue-900/30 backdrop-blur-md
         px-4 py-3 rounded-2xl
         border border-blue-400/30
         shadow-lg
       ">
-        <Search className="w-5 h-5" stroke="white" />
-        <input
-          type="text"
-          placeholder="Search city worldwide..."
-          aria-label="Search city"
-          autoComplete="off"
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
-          disabled={loading}
-          className="
-            flex-1 bg-transparent text-white
-            placeholder-white/60 outline-none
-            text-lg disabled:opacity-60
-          "
-        />
+        <div className="flex items-center gap-3 flex-1 min-w-0">
+          <Search className="w-5 h-5 shrink-0" stroke="white" />
+          <input
+            type="text"
+            placeholder="Search city worldwide..."
+            aria-label="Search city"
+            autoComplete="off"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+            disabled={loading}
+            className="
+              flex-1 min-w-0 bg-transparent text-white
+              placeholder-white/60 outline-none
+              text-base min-[420px]:text-lg disabled:opacity-60
+            "
+          />
+        </div>
         <button
           type="submit"
           disabled={loading || !city.trim()}
@@ -44,6 +46,7 @@ function SearchBar({ fetchWeather, loading }) {
             hover:from-blue-600 hover:to-pink-500
             disabled:opacity-50 disabled:cursor-not-allowed
             text-white px-4 py-2 rounded-xl font-semibold transition
+            w-full min-[420px]:w-auto shrink-0
           "
         >
           {loading ? '...' : 'Search'}

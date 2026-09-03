@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen relative flex justify-center items-start pt-16">
+    <div className="min-h-screen relative flex justify-center items-start px-4 pb-16 pt-10 md:pt-16">
       <div
         className="absolute inset-0 bg-cover bg-center before:content-[''] before:absolute before:inset-0 before:bg-blue/70"
         style={{
@@ -61,7 +61,7 @@ function App() {
 
       <div className="relative z-10 flex flex-col items-center w-full max-w-2xl
                       bg-black/30 backdrop-blur-md border-4 border-white/20 rounded-3xl
-                      px-8 py-10 space-y-6 shadow-2xl">
+                      px-5 py-8 md:px-8 md:py-10 space-y-6 shadow-2xl">
         <img
           src={logo}
           alt="AleDev Logo"
