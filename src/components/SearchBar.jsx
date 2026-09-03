@@ -42,8 +42,9 @@ function SearchBar({ fetchWeather, loading }) {
           type="submit"
           disabled={loading}
           className="
-            bg-gradient-to-r from-blue-500 to-pink-400
-            hover:from-blue-600 hover:to-pink-500
+            bg-gradient-to-r from-[#4f8dff] to-[#8b6cff]
+            hover:brightness-110 active:brightness-95
+            shadow-lg shadow-[#4f8dff]/30
             disabled:opacity-50 disabled:cursor-not-allowed
             text-white px-4 py-2 rounded-xl font-semibold transition
             w-full min-[420px]:w-auto shrink-0

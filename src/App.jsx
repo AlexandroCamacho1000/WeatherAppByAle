@@ -10,7 +10,7 @@ const BASE_URL = "https://api.openweathermap.org/data/2.5"
 function LoadingSpinner() {
   return (
     <div className="flex flex-col items-center mt-4 z-20">
-      <div className="w-12 h-12 border-4 border-blue-400 border-t-pink-400 rounded-full animate-spin"></div>
+      <div className="w-12 h-12 border-4 border-[#4f8dff]/30 border-t-[#8b6cff] rounded-full animate-spin"></div>
       <p className="mt-2 font-semibold text-white text-center">Searching city...</p>
     </div>
   )
@@ -69,7 +69,7 @@ function App() {
         />
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-white text-center">
-          Weather <span className="text-blue-400">App</span>
+          Weather <span className="bg-gradient-to-r from-[#4f8dff] to-[#8b6cff] bg-clip-text text-transparent">App</span>
         </h1>
 
         <p className="text-gray-200 text-center text-sm md:text-base leading-relaxed">
